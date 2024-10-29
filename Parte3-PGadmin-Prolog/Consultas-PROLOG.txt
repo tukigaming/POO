@@ -1,0 +1,61 @@
+COMO CONSULTAR EN PROLOG:
+
+¿Cuántos libros de un autor específico hay en la biblioteca?
+1.libros_por_autor(1, Cantidad).
+
+¿Cuáles son los libros más prestados en el último año?
+2.libros_mas_prestados('2024', LibroID, Titulo).
+
+¿Qué autores tienen más libros en la biblioteca?
+3.autor_con_mas_libros(AutorID, Nombre, MaxLibros).
+
+¿Qué estudiantes tienen más de 3 libros prestados actualmente?
+4.estudiantes_con_mas_de_3_libros(EstudianteID).
+
+¿Cuáles son los libros de ciencia ficción publicados después de 2010?
+5.libros_ciencia_ficcion_post_2010(Libros).
+
+¿Qué estudiantes han pedido prestados libros de “miedo”?
+6.estudiantes_prestamos_miedo(EstudianteID).
+
+¿Cuál es el promedio préstamos por estudiante?
+7.promedio_prestamos_por_estudiante(Promedio).
+
+¿Qué editoriales tienen más libros de fantasía?
+8.editoriales_fantasia(Editoriales).
+
+¿Cuáles son los autores que han escrito libros en más de un género?
+9.autores_varios_generos(AutorID).
+
+¿Qué libros no han sido prestados nunca?
+10.libros_no_prestados(LibroID, Titulo).
+
+¿Qué libros fueron publicados en el mismo año?
+11.libros_mismo_año(1954, Libros).
+
+¿Cuántos libros hay de cada género?
+12.cantidad_libros_por_genero('Fantasía', Cantidad).
+
+¿Qué estudiantes han pedido prestados libros del autor Stephen King?
+13.estudiantes_libros_stephen_king(EstudianteID).
+
+¿Qué estudiantes tienen préstamos vencidos?
+14.estudiantes_no_devolvieron(Estudiantes).
+
+¿Qué libros tienen más de 500 páginas?
+15.libros_mas_500_paginas(LibroID, Titulo).
+
+¿Qué libros de “Misterio” fueron prestados en marzo de 2024?
+16.libros_mas_500_paginas(LibroID, Titulo).
+
+¿Qué estudiantes han pedido más de un libro en el mismo mes?
+17.estudiantes_multiples_prestamos_mes(EstudianteID).
+
+¿Qué libros de “Fantasía” fueron publicados antes del año 2000?
+18.libros_fantasia_antes_2000(LibroID, Titulo).
+
+ ¿Qué autores tienen libros en más de un editorial?
+19.libros_mismo_anio(Libros).
+
+¿Qué estudiantes han pedido prestados más de 5 libros en total?
+20.estudiantes_prestamos_multiples_generos(Estudiantes).

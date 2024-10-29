@@ -1,0 +1,87 @@
+% autor(id_autor, nombre, edad, sexo, nombre_real).
+autor(1, 'Stephen King', 75, 'M', 'Stephen Edwin King').
+autor(2, 'J.K. Rowling', 58, 'F', 'Joanne Rowling').
+autor(3, 'Isaac Asimov', 72, 'M', 'Isaak Yudovich Ozimov').
+autor(4, 'George R.R. Martin', 75, 'M', 'George Raymond Richard Martin').
+autor(5, 'Agatha Christie', 85, 'F', 'Agatha Mary Clarissa Miller').
+autor(6, 'Arthur C. Clarke', 90, 'M', 'Arthur Charles Clarke').
+autor(7, 'J.R.R. Tolkien', 81, 'M', 'John Ronald Reuel Tolkien').
+autor(8, 'H.G. Wells', 79, 'M', 'Herbert George Wells').
+autor(9, 'Victor Hugo', 83, 'M', 'Victor Marie Hugo').
+autor(10, 'Ray Bradbury', 91, 'M', 'Ray Douglas Bradbury').
+autor(11, 'Philip K. Dick', 53, 'M', 'Philip Kindred Dick').
+autor(12, 'Jules Verne', 77, 'M', 'Jules Gabriel Verne').
+autor(13, 'Mary Shelley', 53, 'F', 'Mary Wollstonecraft Shelley').
+
+% libro(id_libro, titulo, año_publicacion, autor_id, paginas, genero, editorial).
+libro(1001, 'It', 1986, 1, 1138, 'Miedo', 'Viking Press').
+libro(1002, 'Harry Potter y la Piedra Filosofal', 1997, 2, 223, 'Fantasía', 'Bloomsbury').
+libro(1003, 'Fundación', 1951, 3, 255, 'Ciencia Ficción', 'Gnome Press').
+libro(1004, 'Juego de Tronos', 1996, 4, 694, 'Fantasía', 'Bantam Books').
+libro(1005, 'Choque de Reyes', 1998, 4, 768, 'Fantasía', 'Bantam Books').
+libro(1006, 'Tormenta de Espadas', 2000, 4, 973, 'Fantasía', 'Bantam Books').
+libro(1007, 'El Asesinato de Roger Ackroyd', 1926, 5, 312, 'Misterio', 'William Collins & Sons').
+libro(1008, 'Muerte en el Nilo', 1937, 5, 320, 'Misterio', 'Collins Crime Club').
+libro(1009, '2001: Una odisea del espacio', 1968, 6, 297, 'Ciencia Ficción', 'New American Library').
+libro(1010, 'El fin de la infancia', 1953, 6, 212, 'Ciencia Ficción', 'Ballantine Books').
+libro(1011, 'El Señor de los Anillos: La Comunidad del Anillo', 1954, 7, 423, 'Fantasía', 'George Allen & Unwin').
+libro(1012, 'El Hobbit', 1937, 7, 310, 'Fantasía', 'George Allen & Unwin').
+libro(1013, 'El Señor de los Anillos: Las Dos Torres', 1954, 7, 352, 'Fantasía', 'George Allen & Unwin').
+libro(1014, 'Fundación e Imperio', 1952, 3, 227, 'Ciencia Ficción', 'Gnome Press').
+libro(1015, 'Segunda Fundación', 1953, 3, 210, 'Ciencia Ficción', 'Gnome Press').
+libro(1016, 'Yo, Robot', 1950, 3, 253, 'Ciencia Ficción', 'Gnome Press').
+libro(1017, 'Misery', 1987, 1, 368, 'Miedo', 'Viking Press').
+libro(1018, 'Carrie', 1974, 1, 199, 'Miedo', 'Doubleday').
+libro(1019, 'El Resplandor', 1977, 1, 447, 'Miedo', 'Doubleday').
+libro(1020, 'El misterio de la guía de ferrocarriles', 1936, 5, 256, 'Misterio', 'Collins Crime Club').
+libro(1021, 'El Hombre Invisible', 1897, 8, 149, 'Ciencia Ficción', 'C. Arthur Pearson').
+libro(1022, 'La Guerra de los Mundos', 1898, 8, 192, 'Ciencia Ficción', 'William Heinemann').
+libro(1023, 'Los Miserables', 1862, 9, 1463, 'Drama', 'A. Lacroix, Verboeckhoven & Cie').
+% estudiante(id_estudiante, nombre, edad, carrera).
+
+estudiante(1, 'Carlos Perez', 21, 'Ingeniería').
+estudiante(2, 'Ana Martinez', 22, 'Medicina').
+estudiante(3, 'Luis Gomez', 20, 'Derecho').
+estudiante(4, 'Maria Lopez', 23, 'Arquitectura').
+estudiante(5, 'Juan Rodriguez', 21, 'Economía').
+estudiante(6, 'Laura Sánchez', 24, 'Psicología').
+estudiante(7, 'Miguel Torres', 22, 'Ingeniería').
+
+% prestamo(id_estudiante, id_libro, fecha_prestamo, fecha_retorno).
+prestamo(1, 1022, '2024-01-15', '2024-02-15').
+prestamo(2, 1005, '2024-02-01', '2024-02-15').
+prestamo(3, 1006, '2024-03-01', '2024-03-15').
+prestamo(4, 1007, '2024-03-05', 'NULL').  % Préstamo no devuelto aún
+prestamo(5, 1008, '2024-03-10', '2024-03-20').
+prestamo(6, 1009, '2024-03-12', 'NULL').  % Préstamo no devuelto aún
+prestamo(7, 1010, '2024-03-15', '2024-03-30').
+prestamo(1, 1011, '2024-04-01', '2024-04-15').
+prestamo(2, 1012, '2024-04-02', '2024-04-16').
+prestamo(3, 1013, '2024-04-03', '2024-04-17').
+prestamo(4, 1014, '2024-04-04', '2024-04-18').
+prestamo(5, 1015, '2024-04-05', '2024-04-19').
+prestamo(6, 1016, '2024-04-06', 'NULL').  % Préstamo no devuelto aún
+prestamo(7, 1017, '2024-04-07', '2024-04-21').
+prestamo(1, 1018, '2024-04-08', '2024-04-22').
+prestamo(2, 1019, '2024-04-09', '2024-04-23').
+prestamo(3, 1020, '2024-04-10', '2024-04-24').
+prestamo(4, 1004, '2024-04-11', '2024-04-25').
+prestamo(5, 1003, '2024-04-12', '2024-04-26').
+prestamo(6, 1002, '2024-04-13', 'NULL').  % Préstamo no devuelto aún
+prestamo(7, 1001, '2024-04-14', '2024-04-28').
+prestamo(1, 1023, '2024-04-15', '2024-04-29').
+prestamo(2, 1021, '2024-04-16', '2024-04-30').
+prestamo(3, 1020, '2024-04-17', '2024-05-01').
+prestamo(4, 1019, '2024-04-18', '2024-05-02').
+prestamo(5, 1018, '2024-04-19', '2024-05-03').
+prestamo(6, 1017, '2024-04-20', '2024-05-04').
+
+
+%1
+libros_por_autor(AutorID, Cantidad) :-
+    findall(_, libro(_, _, _, AutorID, _, _, _), Libros),
+    length(Libros, Cantidad).
+
+
+
+
